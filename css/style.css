@@ -1,0 +1,200 @@
+/*
+Project Name: Relaxr Blog
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.fl {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.clear-parent {
+  overflow: hidden;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0efef;
+  color: #606161;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #033048;
+  color:#033048;
+}
+
+header .logo {
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: .5px;
+  padding: 25px 0px 0px 80px;
+  float: left;
+}
+
+header nav {
+  font-weight:600;
+  color: #f9e42e;
+  float: right;
+  margin-top: 20px;
+
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  float: right;
+  display: block;
+  width: 90px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+/* MAIN */
+.content {
+  width: 700px;
+  font-size: 18px;
+  font-weight: 300;
+  padding-left: 80px;
+  padding-top: 30px;
+  float:left;
+}
+
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+  padding-top: 30px;
+  color: #033048;
+}
+
+.bigletter {
+  font-size: 50px;
+  font-weight: 600;
+  float:left;
+  padding-right:10px;
+}
+
+.link {
+  float: right;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #033048;
+}
+
+.article {
+  padding-bottom: 50px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #606161;
+  margin-left: 0px;
+}
+
+aside {
+  float: right;
+  width: 240px;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 800;
+  padding-top: 40px;
+  color: #033048;
+}
+
+.learn {
+  font-weight: 600;
+  color: #033048;
+}
+
+aside ul {
+  padding: 0 0 0 0px;
+}
+
+.ad {
+  padding-top: 50px;
+}
+
+.yellow {
+  margin-top:100px;
+  background-color: #f9e42e;
+  height: 100px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.signbutton p {
+  background-color: #033048;
+  background-position: center;
+  width: 200px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 22px;
+  font-weight: 600;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #121212;
+  height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+h4 {
+  color: #f9e42e;
+  font-weight: bold;
+  font-size: 34px;
+    letter-spacing: .5px;
+}
+
+footer img {
+  padding:20px;
+}
